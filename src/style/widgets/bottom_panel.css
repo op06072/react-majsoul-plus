@@ -1,0 +1,71 @@
+#bottom-panel {
+    height: calc(64px + 1px);
+    width: 100%;
+    position: relative;
+    background-color: var(--bottom-panel-color);
+    border-top: 1px solid var(--border-color);
+    margin: 0 auto;
+}
+#bottom-panel #serverInfo {
+    font-size: 14px;
+    position: absolute;
+    line-height: 14px;
+    top: 16px;
+    left: 42px;
+    color: var(--light-text);
+    cursor: pointer;
+}
+#bottom-panel #pingInfo {
+    cursor: default;
+    font-size: 14px;
+    position: absolute;
+    line-height: 14px;
+    top: 34px;
+    left: 42px;
+    color: var(--light-text);
+}
+#bottom-panel #pingInfo::before {
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    content: ' ';
+    width: 10px;
+    height: 10px;
+    left: -24px;
+    top: -8px;
+}
+#bottom-panel #pingInfo.offline::before {
+    background-color: var(--ping-offline);
+}
+#bottom-panel #pingInfo.red::before {
+    background-color: var(--ping-red);
+}
+#bottom-panel #pingInfo.green::before {
+    background-color: var(--ping-green);
+}
+#bottom-panel #pingInfo.orange::before {
+    background-color: var(--ping-orange);
+}
+#bottom-panel #launch {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 48px;
+    height: 64px;
+    line-height: 64px;
+    background-color: var(--main-color);
+    color: var(--white-text);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    cursor: pointer;
+    border: none;
+    transition: background-color var(--animation-time) var(--ease-in-out);
+}
+#bottom-panel #launch:hover {
+    background-color: var(--main-dark-color);
+}
+#bottom-panel #launch:disabled {
+    cursor: not-allowed;
+    background-color: var(--disabled-color);
+}

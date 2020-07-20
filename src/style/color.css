@@ -1,0 +1,32 @@
+:root {
+    --title-color: #e280ae;
+    --title-text: #fff;
+    --main-color: #e280ae;
+    --main-dark-color: #c69;
+    --white-text: #fff;
+    --disabled-color: #808080;
+    --switch-able-color: #e280ae;
+    --switch-disable-color: #b1b1b1;
+    --switch-ball-color: #fff;
+    --light-text: #808080;
+    --bold-text: #303030;
+    --icon-color: #404040;
+    --border-color: #d0d0d0;
+    --left-panel-color: #f0f0f0;
+    --left-panel-active-color: #e0e0e0;
+    --left-panel-hover-color: #d8d8d8;
+    --section-color: #fafafa;
+    --info-card-color: #fff;
+    --bottom-panel-color: #fff;
+    --ease-in-out: cubic-bezier(0.645, 0.045, 0.355, 1);
+    --animation-time: 100ms;
+    --ping-red: #d33;
+    --ping-orange: #f80;
+    --ping-green: #3d3;
+    --ping-offline: #888;
+    --mac-close-btn: #f44;
+    --mac-close-btn-border: #d33;
+    --mac-close-btn-hover: #f44;
+    --mac-close-btn-hover-border: #d33;
+    --main-height: 628px;
+}

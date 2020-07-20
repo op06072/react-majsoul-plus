@@ -1,0 +1,57 @@
+@import './left_panel.css';
+@import './bottom_panel.css';
+@import './info_card.css';
+@import './setting_page.css';
+@import './about_page.css';
+#main-context * {
+    float: left;
+}
+#main-context section {
+	display: none;
+	height: var(--main-height);
+	width: calc(1039/1280*100%);
+	background-color: var(--section-color);
+	position: relative;
+}
+#main-context section.show {
+	display: block;
+}
+#main-context section .big-btn {
+	font-style: normal;
+	position: absolute;
+	top: 8px;
+	background-color: transparent;
+	border: 0;
+	color: var(--light-text);
+}
+#main-context section .big-btn:hover {
+	color: var(--bold-text);
+}
+#main-context section .big-btn::before {
+	font-size: 24px;
+}
+#main-context section .refresh-btn {
+	left: 102px;
+}
+#main-context section .refresh-btn::before {
+	font-family: 'iconfont' !important;
+	content: '';
+}
+#main-context section .openfolder-btn {
+	right: 180px;
+}
+#main-context section .install-btn {
+	right: 140px;
+}
+#main-context section .install-btn::before {
+	font-family: 'iconfont' !important;
+	content: '';
+}
+#main-context section .edit-btn {
+	right: 100px;
+}
+#main-context section .edit-btn::before {
+	font-family: 'iconfont' !important;
+	content: '';
+}
+ 
