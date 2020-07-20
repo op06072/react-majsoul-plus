@@ -8,8 +8,8 @@
 }
 #main-context section {
 	display: none;
-	height: var(--main-height);
-	width: calc(1039/1280*100%);
+	height: calc(785vw/16);
+	width: calc(5195vw/64);
 	background-color: var(--section-color);
 	position: relative;
 }
@@ -19,7 +19,7 @@
 #main-context section .big-btn {
 	font-style: normal;
 	position: absolute;
-	top: 8px;
+	top: calc(5vw/8);
 	background-color: transparent;
 	border: 0;
 	color: var(--light-text);
@@ -28,27 +28,27 @@
 	color: var(--bold-text);
 }
 #main-context section .big-btn::before {
-	font-size: 24px;
+	font-size: calc(15vw/8);
 }
 #main-context section .refresh-btn {
-	left: 102px;
+	left: calc(255vw/32);
 }
 #main-context section .refresh-btn::before {
 	font-family: 'iconfont' !important;
 	content: '';
 }
 #main-context section .openfolder-btn {
-	right: 180px;
+	right: calc(225vw/16);
 }
 #main-context section .install-btn {
-	right: 140px;
+	right: calc(175vw/16);
 }
 #main-context section .install-btn::before {
 	font-family: 'iconfont' !important;
 	content: '';
 }
 #main-context section .edit-btn {
-	right: 100px;
+	right: calc(125vw/16);
 }
 #main-context section .edit-btn::before {
 	font-family: 'iconfont' !important;

@@ -1,29 +1,29 @@
 #main-context > section[data-name='aboutPage'] {
-    padding: 40px 0 20px 102px;
+    padding: calc(25vw/8) 0 calc(25vw/16) calc(225vw/32);
 }
 #main-context > section[data-name='aboutPage'] #about-inner {
     height: 100%;
-    width: calc(100% - 80px);
+    width: calc(100% - 25vw/4);
     overflow-y: auto;
     display: flex;
     flex-direction: column;
 }
 #main-context > section[data-name='aboutPage'] #about-inner h3 {
     cursor: default;
-    font-size: 18px;
-    padding-top: 8px;
-    line-height: 22px;
+    font-size: calc(45vw/32);
+    padding-top: calc(5vw/8);
+    line-height: calc(55vw/32);
     color: var(--bold-text);
 }
 #main-context > section[data-name='aboutPage'] #about-inner p {
-    margin-top: 4px;
-    padding-bottom: 4px;
+    margin-top: calc(5vw/16);
+    padding-bottom: calc(5vw/16);
     cursor: default;
-    line-height: 20px;
-    font-size: 14px;
-    padding-left: 16px;
+    line-height: calc(25vw/16);
+    font-size: calc(35vw/32);
+    padding-left: calc(5vw/4);
     color: var(--light-text);
 }
 #main-context > section[data-name='aboutPage'] #about-inner p span {
-    padding-right: 5px;
+    padding-right: calc(25vw/64);
 }

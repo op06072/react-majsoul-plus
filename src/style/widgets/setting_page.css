@@ -1,8 +1,8 @@
 #main-context > section[data-name='settingPage'] {
-    padding: 40px 0 20px 102px;
+    padding: 40px 0 calc(25vw/16) calc(255vw/32);
 }
 #main-context > section[data-name='settingPage'] #save-configs {
-    left: 102px;
+    left: calc(255vw/32);
 }
 #main-context > section[data-name='settingPage'] #save-configs::before {
     font-family: 'iconfont' !important;
@@ -23,11 +23,11 @@
     color: var(--bold-text);
 }
 #main-context > section[data-name='settingPage'] #setting-inner p {
-    height: 20px;
+    height: calc(25vw/16);
     margin-top: 4px;
     cursor: default;
     width: max-content;
-    line-height: 20px;
+    line-height: calc(25vw/16);
     font-size: 14px;
     padding-left: 16px;
     color: var(--light-text);
@@ -36,10 +36,10 @@
     outline: none !important;
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='number'] {
-    height: 20px;
+    height: calc(25vw/16);
     margin-top: 4px;
     margin-left: 2px;
-    line-height: 20px;
+    line-height: calc(25vw/16);
     font-size: 14px;
     width: 36px;
 }
@@ -48,10 +48,10 @@
     margin: 0;
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='text'] {
-    height: 20px;
+    height: calc(25vw/16);
     margin-top: 4px;
     margin-left: 2px;
-    line-height: 20px;
+    line-height: calc(25vw/16);
     font-size: 14px;
     width: max-content;
 }
@@ -64,9 +64,9 @@
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='number'] + label {
     width: max-content;
-    height: 20px;
+    height: calc(25vw/16);
     margin-top: 4px;
-    line-height: 20px;
+    line-height: calc(25vw/16);
     font-size: 14px;
     cursor: pointer;
     outline: none !important;
@@ -75,9 +75,9 @@
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='text'] + label {
     width: max-content;
-    height: 20px;
+    height: calc(25vw/16);
     margin-top: 4px;
-    line-height: 20px;
+    line-height: calc(25vw/16);
     font-size: 14px;
     cursor: pointer;
     outline: none !important;
@@ -86,9 +86,9 @@
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='checkbox'] + label {
     width: max-content;
-    height: 20px;
+    height: calc(25vw/16);
     margin-top: 4px;
-    line-height: 20px;
+    line-height: calc(25vw/16);
     font-size: 14px;
     cursor: pointer;
     outline: none !important;
@@ -124,5 +124,5 @@
     background-color: var(--switch-able-color);
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='checkbox']:checked + label::after {
-    left: calc(-12px - 2px + 20px);
+    left: calc(-12px - 2px + 25vw/16);
 }

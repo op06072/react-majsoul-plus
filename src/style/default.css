@@ -45,6 +45,6 @@ button {
 }
 body {
     width: 100%;
-    height: width/16*9;
+    height: 56.25vw;
     overflow: hidden;
 }
