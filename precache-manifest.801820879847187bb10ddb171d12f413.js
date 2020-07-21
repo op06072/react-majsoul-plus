@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e23f3f0bb44e64ee6ca75c172c73cb0",
+    "revision": "e97b210b585f539008413352c485e65a",
     "url": "/react-majsoul-plus/index.html"
   },
   {
-    "revision": "3a6378dc74591c68656b",
-    "url": "/react-majsoul-plus/static/css/main.dc29bab4.chunk.css"
+    "revision": "2ab11b794e41ca70f305",
+    "url": "/react-majsoul-plus/static/css/main.76f186d7.chunk.css"
   },
   {
     "revision": "2312c3c25230c9dbb1a6",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-majsoul-plus/static/js/2.1356f608.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3a6378dc74591c68656b",
+    "revision": "2ab11b794e41ca70f305",
     "url": "/react-majsoul-plus/static/js/main.de02bcd6.chunk.js"
   },
   {

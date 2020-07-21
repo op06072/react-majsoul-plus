@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-majsoul-plus/static/css/main.dc29bab4.chunk.css",
+    "main.css": "/react-majsoul-plus/static/css/main.76f186d7.chunk.css",
     "main.js": "/react-majsoul-plus/static/js/main.de02bcd6.chunk.js",
     "main.js.map": "/react-majsoul-plus/static/js/main.de02bcd6.chunk.js.map",
     "runtime-main.js": "/react-majsoul-plus/static/js/runtime-main.7bd18f63.js",
@@ -8,9 +8,9 @@
     "static/js/2.1356f608.chunk.js": "/react-majsoul-plus/static/js/2.1356f608.chunk.js",
     "static/js/2.1356f608.chunk.js.map": "/react-majsoul-plus/static/js/2.1356f608.chunk.js.map",
     "index.html": "/react-majsoul-plus/index.html",
-    "precache-manifest.41952b04041f6746455ba0690efc1d5b.js": "/react-majsoul-plus/precache-manifest.41952b04041f6746455ba0690efc1d5b.js",
+    "precache-manifest.801820879847187bb10ddb171d12f413.js": "/react-majsoul-plus/precache-manifest.801820879847187bb10ddb171d12f413.js",
     "service-worker.js": "/react-majsoul-plus/service-worker.js",
-    "static/css/main.dc29bab4.chunk.css.map": "/react-majsoul-plus/static/css/main.dc29bab4.chunk.css.map",
+    "static/css/main.76f186d7.chunk.css.map": "/react-majsoul-plus/static/css/main.76f186d7.chunk.css.map",
     "static/js/2.1356f608.chunk.js.LICENSE.txt": "/react-majsoul-plus/static/js/2.1356f608.chunk.js.LICENSE.txt",
     "static/media/style.css": "/react-majsoul-plus/static/media/iconfont.9a609b68.ttf",
     "static/media/logo.svg": "/react-majsoul-plus/static/media/logo.5d5d9eef.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.7bd18f63.js",
     "static/js/2.1356f608.chunk.js",
-    "static/css/main.dc29bab4.chunk.css",
+    "static/css/main.76f186d7.chunk.css",
     "static/js/main.de02bcd6.chunk.js"
   ]
 }
