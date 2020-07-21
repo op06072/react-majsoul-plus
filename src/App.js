@@ -1,9 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './style/style.css';
-import resize from './resize';
 console.log(document);
-resize();
+var screenconfig = document.head.getElementsByTagName('style')[1];
+var confs = screenconfig.innerText.split(';')
+confs[30] = `\n\t--height-control:calc(16*${window.innerHeight}/(9*${window.innerWidth}))`
+screenconfig = confs.join(';')
+document.head.getElementsByTagName('style')[1].innerHTML = screenconfig
 window.onresize = function (event) {
   var screenconfig = document.head.getElementsByTagName('style')[1];
   var confs = screenconfig.innerText.split(';')
