@@ -1,6 +1,6 @@
 #left-panel {
     width: calc(1205vw/64);
-    height: calc(785vw/16);
+    height: calc(785vw/16 * var(--height-control));
     border-right: calc(5vw/64) solid var(--border-color);
     background-color: var(--left-panel-color);
 }
@@ -11,9 +11,9 @@
 #left-panel ul li {
     display: block;
     width: 100%;
-    height: calc(15vw/4);
-    line-height: calc(15vw/4);
-    font-size: calc(5vw/4);
+    height: calc(15vw/4 * var(--height-control));
+    line-height: calc(15vw/4 * var(--height-control));
+    font-size: calc(5vw/4 * var(--height-control));
     color: var(--bold-text);
     padding-left: calc(15vw/4);
     transition: background-color var(--animation-time) var(--ease-in-out);
@@ -29,10 +29,10 @@
     position: absolute;
     left: 0;
     width: calc(15vw/4);
-    height: calc(15vw/4);
+    height: calc(15vw/4 * var(--height-control));
     text-align: center;
-    font-size: calc(45vw/32);
-    line-height: calc(15vw/4);
+    font-size: calc(45vw/32 * var(--height-control));
+    line-height: calc(15vw/4 * var(--height-control));
     color: var(--icon-color);
 }
 #left-panel ul li[data-target='resourcepackPage']::before {
@@ -40,15 +40,15 @@
 }
 #left-panel ul li[data-target='extensionPage']::before {
     content: '';
-    font-size: calc(5vw/4);
+    font-size: calc(5vw/4 * var(--height-control));
 }
 #left-panel ul li[data-target='toolPage']::before {
     content: '';
-    font-size: calc(45vw/32);
+    font-size: calc(45vw/32 * var(--height-control));
 }
 #left-panel ul li[data-target='settingPage']::before {
     content: '';
-    font-size: calc(45vw/32);
+    font-size: calc(45vw/32 * var(--height-control));
 }
 #left-panel ul li[data-target='aboutPage']::before {
     content: '';

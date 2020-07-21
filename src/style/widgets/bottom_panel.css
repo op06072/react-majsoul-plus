@@ -1,26 +1,26 @@
 #bottom-panel {
-    height: calc(325vw/64);
+    height: calc(325vw/64 * var(--height-control));
     width: 100%;
     position: relative;
     background-color: var(--bottom-panel-color);
-    border-top: calc(5vw/64) solid var(--border-color);
+    border-top: calc(5vw/64 * var(--height-control)) solid var(--border-color);
     margin: 0 auto;
 }
 #bottom-panel #serverInfo {
-    font-size: calc(35vw/32);
+    font-size: calc(35vw/32 * var(--height-control));
     position: absolute;
-    line-height: calc(35vw/32);
-    top: 1.25vw;
+    line-height: calc(35vw/32 * var(--height-control));
+    top: calc(1.25vw * var(--height-control));
     left: calc(105vw/32);
     color: var(--light-text);
     cursor: pointer;
 }
 #bottom-panel #pingInfo {
     cursor: default;
-    font-size: calc(35vw/32);
+    font-size: calc(35vw/32 * var(--height-control));
     position: absolute;
-    line-height: calc(35vw/32);
-    top: calc(85vw/32);
+    line-height: calc(35vw/32 * var(--height-control));
+    top: calc(85vw/32 * var(--height-control));
     left: calc(105vw/32);
     color: var(--light-text);
 }
@@ -30,9 +30,9 @@
     border-radius: 50%;
     content: ' ';
     width: calc(25vw/32);
-    height: calc(25vw/32);
+    height: calc(25vw/32 * var(--height-control));
     left: calc(-15vw/8);
-    top: calc(-5vw/8);
+    top: calc(-5vw/8 * var(--height-control));
 }
 #bottom-panel #pingInfo.offline::before {
     background-color: var(--ping-offline);
@@ -51,12 +51,12 @@
     right: 0;
     bottom: 0;
     padding: 0 calc(15vw/4);
-    height: calc(325vw/64);
-    line-height: calc(325vw/64);
+    height: calc(325vw/64 * var(--height-control));
+    line-height: calc(325vw/64 * var(--height-control));
     background-color: var(--main-color);
     color: var(--white-text);
     text-align: center;
-    font-size: calc(15vw/8);
+    font-size: calc(15vw/8 * var(--height-control));
     font-weight: 300;
     cursor: pointer;
     border: none;

@@ -1,32 +1,32 @@
 .darwin {
-    --main-height: 634px;
+    --main-height: calc(1585vw/32 * var(--height-control));
     --left-panel-color: transparent;
     --left-panel-active-color: rgba(0, 0, 0, 0.067);
     --left-panel-hover-color: rgba(0, 0, 0, 0.188);
 }
 .darwin h1 {
-    height: 22px;
-    line-height: 22px;
-    font-size: 12px;
+    height: calc(55vw/32 * var(--height-control));
+    line-height: calc(55vw/32 * var(--height-control));
+    font-size: calc(15vw/16 * var(--height-control));
 }
 #titlebar > .close-btn > .darwin::before {
     cursor: pointer;
     right: auto;
-    left: 10px;
-    top: 8px;
-    height: 12px;
-    width: 12px;
-    font-size: 12px;
+    left: calc(25vw/32);
+    top: calc(5vw/8 * var(--height-control));
+    height: calc(15vw/16 * var(--height-control));
+    width: calc(15vw/16);
+    font-size: calc(15vw/16 * var(--height-control));
     font-weight: 400;
     background-color: var(--mac-close-btn);
     border-radius: 50%;
-    border: 1px solid var(--mac-close-btn-border);
+    border: calc(5vw/64 * var(--height-control)) solid var(--mac-close-btn-border);
     color: #811 0;
     transition: color var(--animation-time) var(--ease-in-out);
-    line-height: 12px;
+    line-height: calc(15vw/16 * var(--height-control));
 }
 #titlebar > .close-btn > .darwin:hover::before {
     color: #811 f;
     background-color: var(--mac-close-btn-hover);
-    border: 1px solid var(--mac-close-btn-hover-border);
+    border: calc(5vw/64 * var(--height-control)) solid var(--mac-close-btn-hover-border);
 }

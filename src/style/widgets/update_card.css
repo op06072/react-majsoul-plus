@@ -1,13 +1,13 @@
 #update-card {
     display: none;
-    padding: 16px 20px;
+    padding: calc(5vw/4) calc(25vw/16);
     position: fixed;
     left: 0;
-    bottom: calc(64px);
-    height: calc(144px + 2px);
-    width: calc(256px + 2px);
+    bottom: calc(5vw * var(--height-control));
+    height: calc((45vw/4 + 5vw/32) * var(--height-control));
+    width: calc(20vw + 5vw/32);
     background-color: var(--info-card-color);
-    border: 1px solid var(--border-color);
+    border: calc(5vw/64 * var(--height-control)) solid var(--border-color);
     user-select: none;
 }
 @keyframes fadeInFromNone {
@@ -26,21 +26,21 @@
 }
 #update-card h3 {
     color: var(--bold-text);
-    font-size: 14px;
-    line-height: 14px;
+    font-size: calc(35vw/32 * var(--height-control));
+    line-height: calc(35vw/32 * var(--height-control));
     max-width: 100%;
-    margin-bottom: 8px;
+    margin-bottom: calc(5vw/8 * var(--height-control));
     cursor: default;
 }
 #update-card p {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: calc(35vw/32 * var(--height-control));
+    line-height: calc(45vw/32 * var(--height-control));
     color: var(--light-text);
-    margin-bottom: 8px;
+    margin-bottom: calc(5vw/8 * var(--height-control));
     cursor: default;
 }
 #update-card button {
-    font-size: 12px;
+    font-size: calc(15vw/16 * var(--height-control));
     font-weight: 400;
 }
 #update-card button.hide {
@@ -48,8 +48,8 @@
 }
 #update-card button.updateCard_close {
     position: absolute;
-    top: 100px;
-    left: 24px;
+    top: calc(125vw/16 * var(--height-control));
+    left: calc(15vw/8);
     color: var(--light-text);
     border: none;
     text-underline-position: under;
@@ -62,13 +62,13 @@
 }
 #update-card button.updateCard_view {
     position: absolute;
-    top: 100px;
-    right: 24px;
+    top: calc(125vw/16 * var(--height-control));
+    right: calc(15vw/8);
     border: none;
     color: var(--white-text);
     background-color: var(--main-color);
     transition: background-color var(--animation-time) var(--ease-in-out);
-    padding: 4px 12px;
+    padding: calc(5vw/16) calc(15vw/16);
     float: right;
 }
 #update-card button.updateCard_view:hover {

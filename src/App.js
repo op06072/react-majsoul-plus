@@ -1,6 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './style/style.css';
+import resize from './resize';
+console.log(document);
+resize();
+window.onresize = function (event) {
+  var screenconfig = document.head.getElementsByTagName('style')[1];
+  var confs = screenconfig.innerText.split(';')
+  confs[30] = `\n\t--height-control:calc(16*${window.innerHeight}/(9*${window.innerWidth}))`
+  screenconfig = confs.join(';')
+  document.head.getElementsByTagName('style')[1].innerHTML = screenconfig
+};
 
 export default function App(){
   return (
@@ -8,8 +18,8 @@ export default function App(){
         {/*<meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-        <style dangerouslySetInnerHTML={{__html: style }} />*/}
-        <link rel="stylesheet" id="extraCss" href />
+        <style dangerouslySetInnerHTML={{__html: style }} />
+  <link rel="stylesheet" id="extraCss" href />*/}
         <title data-i18n="main.programName">雀魂Plus</title>
         <div id="titlebar">
           <h1 data-i18n="main.programName">雀魂Plus</h1>
@@ -131,6 +141,9 @@ export default function App(){
           </button>
         </div>
         {/* 版本卡标签结束 */}
+        <script>
+          resize();
+        </script>
       </div>
     );
 }

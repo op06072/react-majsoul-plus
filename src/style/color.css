@@ -28,5 +28,6 @@
     --mac-close-btn-border: #d33;
     --mac-close-btn-hover: #f44;
     --mac-close-btn-hover-border: #d33;
-    --main-height: 628px;
+    --main-height: calc(785vw/16);
+    --height-control: calc((16*720)/(9*1280));
 }

@@ -1,5 +1,5 @@
 #main-context > section[data-name='settingPage'] {
-    padding: 40px 0 calc(25vw/16) calc(255vw/32);
+    padding: calc(25vw/8) 0 calc(25vw/16) calc(255vw/32);
 }
 #main-context > section[data-name='settingPage'] #save-configs {
     left: calc(255vw/32);
@@ -9,50 +9,50 @@
     content: '';
 }
 #main-context > section[data-name='settingPage'] #setting-inner {
-    height: 100%;
-    width: calc(100% - 16px);
+    height: calc(225vw/4 * var(--height-control));
+    width: calc(100% - calc(5vw/4));
     overflow-y: auto;
     display: flex;
     flex-direction: column;
 }
 #main-context > section[data-name='settingPage'] #setting-inner h3 {
     cursor: default;
-    font-size: 18px;
-    padding-top: 8px;
-    line-height: 22px;
+    font-size: calc(45vw/32 * var(--height-control));
+    padding-top: calc(5vw/8 * var(--height-control));
+    line-height: calc(55vw/32 * var(--height-control));
     color: var(--bold-text);
 }
 #main-context > section[data-name='settingPage'] #setting-inner p {
-    height: calc(25vw/16);
-    margin-top: 4px;
+    height: calc(25vw/16 * var(--height-control));
+    margin-top: calc(5vw/16 * var(--height-control));
     cursor: default;
     width: max-content;
-    line-height: calc(25vw/16);
-    font-size: 14px;
-    padding-left: 16px;
+    line-height: calc(25vw/16 * var(--height-control));
+    font-size: calc(35vw/32 * var(--height-control));
+    padding-left: calc(5vw/4);
     color: var(--light-text);
 }
 #main-context > section[data-name='settingPage'] #setting-inner input {
     outline: none !important;
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='number'] {
-    height: calc(25vw/16);
-    margin-top: 4px;
-    margin-left: 2px;
-    line-height: calc(25vw/16);
-    font-size: 14px;
-    width: 36px;
+    height: calc(25vw/16 * var(--height-control));
+    margin-top: calc(5vw/16 * var(--height-control));
+    margin-left: calc(5vw/32);
+    line-height: calc(25vw/16 * var(--height-control));
+    font-size: calc(35vw/32 * var(--height-control));
+    width: calc(45vw/16);
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='number']::-webkit-outer-spin-button, #main-context > section[data-name='settingPage'] #setting-inner input[type='number']::-webkit-inner-spin-button {
     -webkit-appearance: none !important;
     margin: 0;
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='text'] {
-    height: calc(25vw/16);
-    margin-top: 4px;
-    margin-left: 2px;
-    line-height: calc(25vw/16);
-    font-size: 14px;
+    height: calc(25vw/16 * var(--height-control));
+    margin-top: calc(5vw/16 * var(--height-control));
+    margin-left: calc(5vw/32);
+    line-height: calc(25vw/16 * var(--height-control));
+    font-size: calc(35vw/32 * var(--height-control));
     width: max-content;
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='text']::-webkit-outer-spin-button, #main-context > section[data-name='settingPage'] #setting-inner input[type='text']::-webkit-inner-spin-button {
@@ -64,59 +64,59 @@
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='number'] + label {
     width: max-content;
-    height: calc(25vw/16);
-    margin-top: 4px;
-    line-height: calc(25vw/16);
-    font-size: 14px;
+    height: calc(25vw/16 * var(--height-control));
+    margin-top: calc(5vw/16 * var(--height-control));
+    line-height: calc(25vw/16 * var(--height-control));
+    font-size: calc(35vw/32 * var(--height-control));
     cursor: pointer;
     outline: none !important;
-    padding-left: 10px;
+    padding-left: calc(25vw/32);
     color: var(--light-text);
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='text'] + label {
     width: max-content;
-    height: calc(25vw/16);
-    margin-top: 4px;
-    line-height: calc(25vw/16);
-    font-size: 14px;
+    height: calc(25vw/16 * var(--height-control));
+    margin-top: calc(5vw/16 * var(--height-control));
+    line-height: calc(25vw/16 * var(--height-control));
+    font-size: calc(35vw/32 * var(--height-control));
     cursor: pointer;
     outline: none !important;
-    padding-left: 10px;
+    padding-left: calc(25vw/32);
     color: var(--light-text);
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='checkbox'] + label {
     width: max-content;
-    height: calc(25vw/16);
-    margin-top: 4px;
-    line-height: calc(25vw/16);
-    font-size: 14px;
+    height: calc(25vw/16 * var(--height-control));
+    margin-top: calc(5vw/16 * var(--height-control));
+    line-height: calc(25vw/16 * var(--height-control));
+    font-size: calc(35vw/32 * var(--height-control));
     cursor: pointer;
     outline: none !important;
     display: block;
-    padding-left: 16px;
+    padding-left: calc(5vw/4);
     color: var(--light-text);
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='checkbox'] + label::before {
     content: ' ';
     display: inline-block;
-    width: 32px;
-    height: 16px;
-    border-radius: 8px;
+    width: calc(5vw/2);
+    height: calc(5vw/4 * var(--height-control));
+    border-radius: calc(5vw/8 * var(--height-control));
     position: relative;
-    top: 3px;
-    right: 12px;
+    top: calc(15vw/64 * var(--height-control));
+    right: calc(15vw/16);
     background-color: var(--switch-disable-color);
     transition: background-color var(--animation-time) var(--ease-in-out);
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='checkbox'] + label::after {
     content: ' ';
     display: block;
-    width: 12px;
-    height: 12px;
-    border-radius: 6px;
+    width: calc(15vw/16);
+    height: calc(15vw/16 * var(--height-control));
+    border-radius: calc(15vw/32 * var(--height-control));
     position: relative;
-    left: -10px;
-    bottom: 16px;
+    left: calc(-25vw/32);
+    bottom: calc(5vw/4 * var(--height-control));
     background-color: var(--switch-ball-color);
     transition: left var(--animation-time) var(--ease-in-out);
 }
@@ -124,5 +124,5 @@
     background-color: var(--switch-able-color);
 }
 #main-context > section[data-name='settingPage'] #setting-inner input[type='checkbox']:checked + label::after {
-    left: calc(-12px - 2px + 25vw/16);
+    left: calc(-15vw/16 - 5vw/32 + 25vw/16);
 }

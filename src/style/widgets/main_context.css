@@ -8,7 +8,7 @@
 }
 #main-context section {
 	display: none;
-	height: calc(785vw/16);
+	height: calc(785vw/16 * var(--height-control));
 	width: calc(5195vw/64);
 	background-color: var(--section-color);
 	position: relative;
@@ -19,7 +19,7 @@
 #main-context section .big-btn {
 	font-style: normal;
 	position: absolute;
-	top: calc(5vw/8);
+	top: calc(5vw/8 * var(--height-control));
 	background-color: transparent;
 	border: 0;
 	color: var(--light-text);
@@ -28,7 +28,7 @@
 	color: var(--bold-text);
 }
 #main-context section .big-btn::before {
-	font-size: calc(15vw/8);
+	font-size: calc(15vw/8 * var(--height-control));
 }
 #main-context section .refresh-btn {
 	left: calc(255vw/32);
