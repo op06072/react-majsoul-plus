@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ca6e0a9e4943441151f944a418b1279",
+    "revision": "1a0469fcaa4487e9d75f6580a56c7d1c",
     "url": "/react-majsoul-plus/index.html"
   },
   {
-    "revision": "9089ee6e066e4cce49d0",
-    "url": "/react-majsoul-plus/static/css/main.27470f7f.chunk.css"
+    "revision": "39cc8ddeeb32f6599ac9",
+    "url": "/react-majsoul-plus/static/css/main.955f35c0.chunk.css"
   },
   {
     "revision": "2312c3c25230c9dbb1a6",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-majsoul-plus/static/js/2.1356f608.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9089ee6e066e4cce49d0",
-    "url": "/react-majsoul-plus/static/js/main.03b3a984.chunk.js"
+    "revision": "39cc8ddeeb32f6599ac9",
+    "url": "/react-majsoul-plus/static/js/main.7ee8a321.chunk.js"
   },
   {
     "revision": "cdc4cb25ba95d4b49e29",
@@ -58,9 +58,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9a609b68a866e5cc197bb29270bc9af5",
     "url": "/react-majsoul-plus/static/media/iconfont.9a609b68.ttf"
-  },
-  {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/react-majsoul-plus/static/media/logo.5d5d9eef.svg"
   }
 ]);
